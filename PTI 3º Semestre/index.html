@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<hmtl lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Cadastro de Usuário</title>
+		
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+
+	</head>
+
+    <body> 
+        <header>
+            <h1>
+                <p class="titulo">Cadastro de Usuário</p>
+            </h1>
+        </header>
+        <form action="home.html" method="post">
+            <legend>Entre com seus dados</legend>
+            <label for="usuario">Usuário: </label>
+            <input type="text" id="usuario" class="input-padrao" minlength="3" required placeholder="Apelido ou nome"></input>
+            
+            <label for="senha"> Senha: </label>
+            <input type="password" id="senha" class="input-padrao" minlength="5" required placeholder="Minímo de 5 digitos"></input>
+            
+            <input type="submit" class="botao"></input>
+            
+            
+            <input type="reset" value="Cancelar" class="botao"></input>
+            
+        </form>
+        <footer>
+			<p class="copyright">&copy; Daniel Brito - 2022</p>
+		</footer>
+    </body>
+</hmtl>
